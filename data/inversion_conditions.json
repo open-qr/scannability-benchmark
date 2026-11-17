@@ -1,0 +1,2727 @@
+{
+  "meta": {
+    "payload": "https://openqr.uk/r/aB3xK9",
+    "ecs": [
+      "L",
+      "M",
+      "Q",
+      "H"
+    ],
+    "ppms": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "conditions": [
+      "normal",
+      "full_inverse",
+      "inverse_light_qz",
+      "preinverted"
+    ],
+    "module_px": 16,
+    "quiet": 4,
+    "n_captures": 16,
+    "decoders": [
+      "zbar",
+      "opencv",
+      "wechat",
+      "zxing"
+    ],
+    "note": "reviewer point #3: separate module polarity from quiet-zone polarity"
+  },
+  "records": [
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.3125
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.1875
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.9375
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.5625
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.9375
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.625
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.375
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.125
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.9375
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.9375
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "L",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.4375
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.125
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.9375
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.625
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.875
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.75
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.25
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0625
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.8125
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "M",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 2,
+      "n_modules": 25,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.5
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0625
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.6875
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.8125
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.8125
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.5
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.5625
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.1875
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "Q",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 3,
+      "n_modules": 29,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.8125
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.1875
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.9375
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.8125
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.9375
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.8125
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.5
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.125
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 2,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.8125
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 4,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 6,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "normal",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "full_inverse",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "inverse_light_qz",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 0.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "zbar",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "opencv",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "wechat",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "ec": "H",
+      "ppm": 8,
+      "condition": "preinverted",
+      "decoder": "zxing",
+      "version": 4,
+      "n_modules": 33,
+      "n": 16,
+      "rate": 1.0
+    }
+  ],
+  "agg_ppm_ge4": {
+    "normal": {
+      "zbar": 1.0,
+      "opencv": 1.0,
+      "wechat": 1.0,
+      "zxing": 1.0
+    },
+    "full_inverse": {
+      "zbar": 0.0,
+      "opencv": 0.0,
+      "wechat": 1.0,
+      "zxing": 1.0
+    },
+    "inverse_light_qz": {
+      "zbar": 0.0,
+      "opencv": 0.0,
+      "wechat": 0.9947916666666666,
+      "zxing": 0.0
+    },
+    "preinverted": {
+      "zbar": 1.0,
+      "opencv": 1.0,
+      "wechat": 1.0,
+      "zxing": 1.0
+    }
+  },
+  "ppm_breakdown": {
+    "2": {
+      "normal": {
+        "zbar": 0.515625,
+        "opencv": 0.140625,
+        "wechat": 1.0,
+        "zxing": 0.875
+      },
+      "full_inverse": {
+        "zbar": 0.0,
+        "opencv": 0.0,
+        "wechat": 0.703125,
+        "zxing": 0.890625
+      },
+      "inverse_light_qz": {
+        "zbar": 0.0,
+        "opencv": 0.0,
+        "wechat": 0.671875,
+        "zxing": 0.0
+      },
+      "preinverted": {
+        "zbar": 0.421875,
+        "opencv": 0.125,
+        "wechat": 1.0,
+        "zxing": 0.890625
+      }
+    },
+    "4": {
+      "normal": {
+        "zbar": 1.0,
+        "opencv": 1.0,
+        "wechat": 1.0,
+        "zxing": 1.0
+      },
+      "full_inverse": {
+        "zbar": 0.0,
+        "opencv": 0.0,
+        "wechat": 1.0,
+        "zxing": 1.0
+      },
+      "inverse_light_qz": {
+        "zbar": 0.0,
+        "opencv": 0.0,
+        "wechat": 0.984375,
+        "zxing": 0.0
+      },
+      "preinverted": {
+        "zbar": 1.0,
+        "opencv": 1.0,
+        "wechat": 1.0,
+        "zxing": 1.0
+      }
+    },
+    "6": {
+      "normal": {
+        "zbar": 1.0,
+        "opencv": 1.0,
+        "wechat": 1.0,
+        "zxing": 1.0
+      },
+      "full_inverse": {
+        "zbar": 0.0,
+        "opencv": 0.0,
+        "wechat": 1.0,
+        "zxing": 1.0
+      },
+      "inverse_light_qz": {
+        "zbar": 0.0,
+        "opencv": 0.0,
+        "wechat": 1.0,
+        "zxing": 0.0
+      },
+      "preinverted": {
+        "zbar": 1.0,
+        "opencv": 1.0,
+        "wechat": 1.0,
+        "zxing": 1.0
+      }
+    },
+    "8": {
+      "normal": {
+        "zbar": 1.0,
+        "opencv": 1.0,
+        "wechat": 1.0,
+        "zxing": 1.0
+      },
+      "full_inverse": {
+        "zbar": 0.0,
+        "opencv": 0.0,
+        "wechat": 1.0,
+        "zxing": 1.0
+      },
+      "inverse_light_qz": {
+        "zbar": 0.0,
+        "opencv": 0.0,
+        "wechat": 1.0,
+        "zxing": 0.0
+      },
+      "preinverted": {
+        "zbar": 1.0,
+        "opencv": 1.0,
+        "wechat": 1.0,
+        "zxing": 1.0
+      }
+    }
+  }
+}

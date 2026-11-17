@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scannability Score · OpenQR Research</title>
+<meta name="description" content="Will this QR code scan? A live model of where stylised QR codes actually break, from a 58k-capture decoder benchmark.">
+<style>
+  :root { color-scheme: light dark; --bg: #f8fafc; --fg: #0f172a; --muted: #64748b; --line: #e2e8f0; --accent: #2563eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #060911; --fg: #e2e8f0; --muted: #94a3b8; --line: #1e293b; --accent: #60a5fa; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+  .kicker { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin: 0 0 8px; }
+  h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.1; margin: 0 0 12px; letter-spacing: -.02em; }
+  .lede { font-size: 18px; color: var(--muted); margin: 0 0 32px; max-width: 60ch; }
+  scannability-widget { margin: 0 0 24px; }
+  .note { font-size: 14px; color: var(--muted); margin: 0 0 40px; }
+  .fallback { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; margin: 0 0 24px; }
+  .fallback caption { text-align: left; padding: 14px 16px; font-weight: 700; background: color-mix(in srgb, var(--accent) 8%, transparent); }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 16px; border-top: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  td:nth-child(2) { font-variant-numeric: tabular-nums; font-weight: 700; }
+  .g-safe { color: #15803d; } .g-risky { color: #b45309; } .g-fragile { color: #b91c1c; }
+  @media (prefers-color-scheme: dark) { .g-safe { color: #4ade80; } .g-risky { color: #fbbf24; } .g-fragile { color: #f87171; } }
+  footer { border-top: 1px solid var(--line); padding-top: 20px; font-size: 14px; color: var(--muted); }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">OpenQR Research · Scannability</p>
+  <h1>Will this QR code scan?</h1>
+  <p class="lede">The "you can cover 30% with a logo" rule is roughly 3&times; too optimistic. Drag the controls: this is the study's model, running live, no server. Watch it grade <strong>fragile</strong> as the logo crosses the worst-case ceiling, and see which decoders drop out.</p>
+
+  <scannability-widget></scannability-widget>
+  <p class="note">The <strong>safe / risky / fragile</strong> grade is calibrated to the study's held-out worst-case decode rate (it is a verdict, not a decode probability). The per-decoder row shows which of the four benchmarked libraries read the design. "Any reader" is the weakest deployed tier (ZBar, OpenCV, and the scanners inside kiosks, POS terminals and apps); "Modern phones" is the stronger tier (zxing-cpp, WeChat) that current phone cameras behave like.</p>
+
+  <noscript>
+    <table class="fallback">
+      <caption>Representative results (JavaScript is off, so here is the model's output for a few settings)</caption>
+      <thead><tr><th>QR design (level H)</th><th>Any reader</th><th>Modern phones</th><th>Reads on</th></tr></thead>
+      <tbody>
+        <tr><td>Clean, 8px/module, no logo</td><td class="g-safe">safe</td><td class="g-safe">safe</td><td>all four</td></tr>
+        <tr><td>Small logo, 5% area, 6px/module</td><td class="g-risky">risky</td><td class="g-safe">safe</td><td>all four</td></tr>
+        <tr><td>Logo 12% area, 6px/module</td><td class="g-fragile">fragile</td><td class="g-risky">risky</td><td>WeChat only</td></tr>
+        <tr><td>Low resolution, 2px/module</td><td class="g-fragile">fragile</td><td class="g-risky">risky</td><td>none</td></tr>
+        <tr><td>Inverted (light-on-dark), 6px/module</td><td class="g-fragile">fragile</td><td class="g-safe">safe</td><td>ZXing, WeChat</td></tr>
+      </tbody>
+    </table>
+  </noscript>
+
+  <footer>
+    <p>Model: the Scannability Margin, a separate model per decoder fit on 58,048 decode attempts (per-decoder held-out AUC 0.94 to 0.97). Open data + method in the <a href="../paper/preprint.md">preprint</a>. Code: <a href="../scorer/scannability_score.ts">scannability_score.ts</a> · CC-BY-4.0.</p>
+  </footer>
+</main>
+<script type="module" src="./dist/scannability-widget.js"></script>
+</body>
+</html>

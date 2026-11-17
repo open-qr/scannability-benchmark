@@ -1,0 +1,55 @@
+{
+ "heldout": "payload==long",
+ "n_test": 1792,
+ "logistic": {
+  "brier": 0.2437,
+  "ece": 0.2682,
+  "auc": 0.9115,
+  "mean_pred": 0.9278,
+  "base_rate": 0.6596
+ },
+ "gbm": {
+  "brier": 0.0396,
+  "ece": 0.0213,
+  "auc": 0.9823,
+  "mean_pred": 0.6765,
+  "base_rate": 0.6596
+ },
+ "gbm_isotonic": {
+  "brier": 0.0471,
+  "ece": 0.0747,
+  "auc": 0.9845,
+  "mean_pred": 0.6554,
+  "base_rate": 0.6596
+ },
+ "per_decoder_gbm": {
+  "opencv": {
+   "brier": 0.052,
+   "ece": 0.0468,
+   "auc": 0.966,
+   "mean_pred": 0.587,
+   "base_rate": 0.5402
+  },
+  "zbar": {
+   "brier": 0.0396,
+   "ece": 0.0332,
+   "auc": 0.9891,
+   "mean_pred": 0.6457,
+   "base_rate": 0.6295
+  },
+  "zxing": {
+   "brier": 0.0286,
+   "ece": 0.0159,
+   "auc": 0.9874,
+   "mean_pred": 0.7034,
+   "base_rate": 0.6897
+  },
+  "wechat": {
+   "brier": 0.0381,
+   "ece": 0.0209,
+   "auc": 0.9842,
+   "mean_pred": 0.7697,
+   "base_rate": 0.779
+  }
+ }
+}

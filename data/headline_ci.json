@@ -1,0 +1,97 @@
+{
+ "method": "bootstrap over capture indices within fixed design cells, decoders paired per capture, B=1000, seed=0; interval = 2.5th-97.5th pct of the recomputed interpolated P95 threshold",
+ "occ_p95_worstcase_ci": {
+  "L": [
+   1.92,
+   8.2
+  ],
+  "M": [
+   5.92,
+   8.2
+  ],
+  "Q": [
+   5.37,
+   8.16
+  ],
+  "H": [
+   7.2,
+   11.2
+  ]
+ },
+ "occ_p95_excl_opencv_ci": {
+  "L": [
+   8.2,
+   8.2
+  ],
+  "M": [
+   8.2,
+   8.2
+  ],
+  "Q": [
+   8.64,
+   9.92
+  ],
+  "H": [
+   16.2,
+   16.2
+  ]
+ },
+ "min_ppm_95_med_ci": {
+  "L": [
+   2.99,
+   3.75
+  ],
+  "M": [
+   2.97,
+   3.36
+  ],
+  "Q": [
+   2.98,
+   3.67
+  ],
+  "H": [
+   2.97,
+   3.67
+  ]
+ },
+ "contrast_floor_worstcase_p95_ci": [
+  1.9,
+  2.43
+ ],
+ "decoder_overall_ci": {
+  "opencv": [
+   0.28,
+   0.28
+  ],
+  "wechat": [
+   0.53,
+   0.54
+  ],
+  "zbar": [
+   0.32,
+   0.32
+  ],
+  "zxing": [
+   0.52,
+   0.52
+  ]
+ },
+ "decoder_lowres_ppm2_ci": {
+  "opencv": [
+   0.02,
+   0.02
+  ],
+  "wechat": [
+   0.24,
+   0.25
+  ],
+  "zbar": [
+   0.07,
+   0.08
+  ],
+  "zxing": [
+   0.2,
+   0.21
+  ]
+ }
+}

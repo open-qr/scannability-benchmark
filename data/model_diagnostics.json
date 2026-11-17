@@ -1,0 +1,167 @@
+{
+ "lopo_cv": {
+  "short": {
+   "n_test_rows": 1792,
+   "logistic_auc": 0.911,
+   "gbm_auc": 0.992,
+   "boundary_band_rows": 768,
+   "gbm_auc_boundary_band": 0.968,
+   "test_band_factor_variation": {
+    "occ_levels": [
+     0
+    ],
+    "inverted_levels": [
+     false
+    ],
+    "contrast_levels": [
+     21.0
+    ]
+   }
+  },
+  "med": {
+   "n_test_rows": 54464,
+   "logistic_auc": 0.789,
+   "gbm_auc": 0.812,
+   "boundary_band_rows": 29312,
+   "gbm_auc_boundary_band": 0.728,
+   "test_band_factor_variation": {
+    "occ_levels": [
+     0,
+     4,
+     8,
+     12,
+     16,
+     20,
+     24,
+     28,
+     32,
+     36,
+     40
+    ],
+    "inverted_levels": [
+     false,
+     true
+    ],
+    "contrast_levels": [
+     1.5,
+     2.01,
+     3.0,
+     4.48,
+     5.89,
+     6.41,
+     7.0,
+     10.05,
+     14.69,
+     14.94,
+     21.0
+    ]
+   }
+  },
+  "long": {
+   "n_test_rows": 1792,
+   "logistic_auc": 0.912,
+   "gbm_auc": 0.982,
+   "boundary_band_rows": 768,
+   "gbm_auc_boundary_band": 0.944,
+   "test_band_factor_variation": {
+    "occ_levels": [
+     0
+    ],
+    "inverted_levels": [
+     false
+    ],
+    "contrast_levels": [
+     21.0
+    ]
+   }
+  }
+ },
+ "permutation_importance": {
+  "heldout_long_payload": {
+   "ec_ord": {
+    "mean_auc_drop": 0.0019,
+    "std": 0.0011
+   },
+   "ppm": {
+    "mean_auc_drop": 0.4613,
+    "std": 0.018
+   },
+   "contrast_ratio": {
+    "mean_auc_drop": 0.0,
+    "std": 0.0
+   },
+   "occ": {
+    "mean_auc_drop": 0.0,
+    "std": 0.0
+   },
+   "version": {
+    "mean_auc_drop": 0.0,
+    "std": 0.0
+   },
+   "inverted_i": {
+    "mean_auc_drop": 0.0,
+    "std": 0.0
+   }
+  },
+  "training_boundary_band": {
+   "ec_ord": {
+    "mean_auc_drop": 0.0213,
+    "std": 0.0003
+   },
+   "ppm": {
+    "mean_auc_drop": 0.1119,
+    "std": 0.0009
+   },
+   "contrast_ratio": {
+    "mean_auc_drop": 0.0055,
+    "std": 0.0005
+   },
+   "occ": {
+    "mean_auc_drop": 0.3409,
+    "std": 0.0034
+   },
+   "version": {
+    "mean_auc_drop": 0.0035,
+    "std": 0.0002
+   },
+   "inverted_i": {
+    "mean_auc_drop": 0.0654,
+    "std": 0.0007
+   }
+  }
+ },
+ "thresholds_90_95_99": {
+  "occlusion_worstcase": {
+   "L": {
+    "90": 8.4,
+    "95": 8.2,
+    "99": 1.0
+   },
+   "M": {
+    "90": 8.2,
+    "95": 8.0,
+    "99": 5.0
+   },
+   "Q": {
+    "90": 8.1,
+    "95": 6.4,
+    "99": 4.5
+   },
+   "H": {
+    "90": 10.5,
+    "95": 8.9,
+    "99": 5.9
+   }
+  },
+  "occlusion_H_excl_opencv": {
+   "90": 16.4,
+   "95": 16.2,
+   "99": 16.0
+  },
+  "min_ppm_worstcase_med": {
+   "90": 2.99,
+   "95": 3.25,
+   "99": 3.85
+  }
+ }
+}

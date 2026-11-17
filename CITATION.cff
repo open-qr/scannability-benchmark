@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Decoder Robustness of Stylised QR Codes under Controlled Image Degradation: A Reproducible, Decoder-Stratified Benchmark"
+abstract: "An open benchmark of where stylised QR codes stop decoding across four pinned decoders, with per-block Reed-Solomon codeword audits, per-decoder occlusion ceilings and a design-time Scannability Margin model."
+type: dataset
+authors:
+  - family-names: Moreton
+    given-names: Sam
+    affiliation: "OpenQR Research"
+version: "1.1-preprint"
+license: CC-BY-4.0
+repository-code: "https://github.com/open-qr/scannability-benchmark"
+url: "https://openqr.uk/research/scannability"
+keywords:
+  - QR codes
+  - scannability
+  - error correction
+  - decoders
+  - computer vision
+  - benchmark
+# A DOI is assigned on Zenodo deposit (release). Add it here under `identifiers`
+# (type: doi) and set `date-released` at that point.

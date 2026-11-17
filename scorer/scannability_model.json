@@ -1,0 +1,101 @@
+{
+ "features": [
+  "ec_ord",
+  "ppm",
+  "contrast_ratio",
+  "occ",
+  "version",
+  "inverted_i"
+ ],
+ "decoders": [
+  "opencv",
+  "zbar",
+  "zxing",
+  "wechat"
+ ],
+ "profiles": {
+  "worst_case": [
+   "opencv",
+   "zbar",
+   "zxing",
+   "wechat"
+  ],
+  "modern_phone": [
+   "zxing",
+   "wechat"
+  ],
+  "kiosk_embedded": [
+   "opencv",
+   "zbar"
+  ]
+ },
+ "per_decoder": {
+  "opencv": {
+   "intercept": -6.936831,
+   "coef": {
+    "ec_ord": -0.229233,
+    "ppm": 1.874114,
+    "contrast_ratio": 0.036393,
+    "occ": -0.595234,
+    "version": 0.758883,
+    "inverted_i": -13.805743
+   }
+  },
+  "zbar": {
+   "intercept": -4.927565,
+   "coef": {
+    "ec_ord": -0.053928,
+    "ppm": 1.306306,
+    "contrast_ratio": 0.03722,
+    "occ": -0.397301,
+    "version": 0.621991,
+    "inverted_i": -11.475897
+   }
+  },
+  "zxing": {
+   "intercept": -4.454886,
+   "coef": {
+    "ec_ord": -0.103343,
+    "ppm": 1.58174,
+    "contrast_ratio": 0.032596,
+    "occ": -0.46881,
+    "version": 0.483104,
+    "inverted_i": -0.098011
+   }
+  },
+  "wechat": {
+   "intercept": -4.332219,
+   "coef": {
+    "ec_ord": -0.019996,
+    "ppm": 1.36952,
+    "contrast_ratio": 0.069208,
+    "occ": -0.431907,
+    "version": 0.548228,
+    "inverted_i": -0.976405
+   }
+  }
+ },
+ "heldout_auc_per_decoder": {
+  "opencv": 0.9651,
+  "zbar": 0.9744,
+  "zxing": 0.9636,
+  "wechat": 0.9388
+ },
+ "grade_cutoffs": {
+  "risky": 0.5775,
+  "safe": 0.9917
+ },
+ "grade_band_empirical_worstcase_rate": {
+  "train": {
+   "fragile": 0.041,
+   "risky": 0.911,
+   "safe": 0.98
+  },
+  "heldout": {
+   "fragile": 0.0,
+   "risky": 0.304,
+   "safe": 0.96
+  }
+ },
+ "note": "Per-decoder logistic P(a single capture decodes) on design-time features. Combine as worst_case=min over decoders (safe spec), modern_phone=min(zxing,wechat), kiosk_embedded=min(opencv,zbar). The scalar margin RANKS (see heldout AUC); the safe/risky/fragile grade cutoffs are calibrated on TRAINING cells only (v1.1 A5) with band rates reported separately for training and held-out cells. For a calibrated probability use the gradient-boosted model (analysis/calibration.py)."
+}

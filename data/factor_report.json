@@ -1,0 +1,179 @@
+{
+ "unstyled_control": {
+  "per_decoder": {
+   "opencv": 0.981,
+   "wechat": 1.0,
+   "zbar": 1.0,
+   "zxing": 1.0
+  },
+  "worst_case_cells": 0.981,
+  "n_cells": 40
+ },
+ "module_style": {
+  "ppm_ge4": {
+   "dots": {
+    "per_decoder": {
+     "opencv": 1.0,
+     "wechat": 1.0,
+     "zbar": 1.0,
+     "zxing": 1.0
+    },
+    "worst_case_cells": 1.0,
+    "n_cells": 12
+   },
+   "gapped": {
+    "per_decoder": {
+     "opencv": 0.99,
+     "wechat": 1.0,
+     "zbar": 1.0,
+     "zxing": 0.943
+    },
+    "worst_case_cells": 0.938,
+    "n_cells": 12
+   },
+   "rounded": {
+    "per_decoder": {
+     "opencv": 1.0,
+     "wechat": 1.0,
+     "zbar": 1.0,
+     "zxing": 1.0
+    },
+    "worst_case_cells": 1.0,
+    "n_cells": 12
+   },
+   "square": {
+    "per_decoder": {
+     "opencv": 0.981,
+     "wechat": 1.0,
+     "zbar": 1.0,
+     "zxing": 1.0
+    },
+    "worst_case_cells": 0.981,
+    "n_cells": 40
+   }
+  },
+  "all_ppm": {
+   "dots": {
+    "per_decoder": {
+     "opencv": 0.6,
+     "wechat": 0.725,
+     "zbar": 0.654,
+     "zxing": 0.665
+    },
+    "worst_case_cells": 0.6,
+    "n_cells": 28
+   },
+   "gapped": {
+    "per_decoder": {
+     "opencv": 0.58,
+     "wechat": 0.696,
+     "zbar": 0.618,
+     "zxing": 0.614
+    },
+    "worst_case_cells": 0.556,
+    "n_cells": 28
+   },
+   "rounded": {
+    "per_decoder": {
+     "opencv": 0.585,
+     "wechat": 0.781,
+     "zbar": 0.636,
+     "zxing": 0.71
+    },
+    "worst_case_cells": 0.585,
+    "n_cells": 28
+   },
+   "square": {
+    "per_decoder": {
+     "opencv": 0.586,
+     "wechat": 0.795,
+     "zbar": 0.658,
+     "zxing": 0.722
+    },
+    "worst_case_cells": 0.586,
+    "n_cells": 90
+   }
+  }
+ },
+ "hue_pairs": {
+  "green_white": {
+   "per_decoder": {
+    "opencv": 0.646,
+    "wechat": 1.0,
+    "zbar": 0.875,
+    "zxing": 0.958
+   },
+   "worst_case_cells": 0.646,
+   "n_cells": 3
+  },
+  "mono": {
+   "per_decoder": {
+    "opencv": 0.278,
+    "wechat": 0.531,
+    "zbar": 0.316,
+    "zxing": 0.516
+   },
+   "worst_case_cells": 0.274,
+   "n_cells": 898
+  },
+  "navy_cream": {
+   "per_decoder": {
+    "opencv": 0.708,
+    "wechat": 1.0,
+    "zbar": 0.896,
+    "zxing": 0.979
+   },
+   "worst_case_cells": 0.708,
+   "n_cells": 3
+  },
+  "red_white": {
+   "per_decoder": {
+    "opencv": 0.688,
+    "wechat": 1.0,
+    "zbar": 0.896,
+    "zxing": 0.958
+   },
+   "worst_case_cells": 0.688,
+   "n_cells": 3
+  }
+ },
+ "overlay_vs_hard": {
+  "overlay": {
+   "per_decoder": {
+    "opencv": 0.159,
+    "wechat": 0.25,
+    "zbar": 0.174,
+    "zxing": 0.216
+   },
+   "worst_case_cells": 0.159,
+   "n_cells": 24
+  },
+  "hard_matched": {
+   "per_decoder": {
+    "opencv": 0.216,
+    "wechat": 0.372,
+    "zbar": 0.279,
+    "zxing": 0.32
+   },
+   "worst_case_cells": 0.216,
+   "n_cells": 24
+  },
+  "matched_on": {
+   "ec": [
+    "H",
+    "M"
+   ],
+   "occ": [
+    8,
+    16,
+    24,
+    32
+   ],
+   "ppm": [
+    2.0,
+    4.0,
+    6.0
+   ]
+  }
+ }
+}

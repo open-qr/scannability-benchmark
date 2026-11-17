@@ -1,0 +1,494 @@
+{
+ "note": "Same character count, different encoding mode -> different QR version and module count n. numeric ~3.3 chars/codeword, alphanumeric ~1.6, byte 1. At fixed physical size a higher version = smaller modules = fewer px/module.",
+ "matched_25char": [
+  {
+   "name": "num25",
+   "payload": "1234567890123456789012345",
+   "chars": 25,
+   "by_ec": {
+    "L": {
+     "mode": "numeric",
+     "version": 1,
+     "n_modules": 21,
+     "requested_ec": "L",
+     "effective_ec": "Q",
+     "boosted": true,
+     "data_bits": 104,
+     "data_codewords": 13
+    },
+    "M": {
+     "mode": "numeric",
+     "version": 1,
+     "n_modules": 21,
+     "requested_ec": "M",
+     "effective_ec": "Q",
+     "boosted": true,
+     "data_bits": 104,
+     "data_codewords": 13
+    },
+    "Q": {
+     "mode": "numeric",
+     "version": 1,
+     "n_modules": 21,
+     "requested_ec": "Q",
+     "effective_ec": "Q",
+     "boosted": false,
+     "data_bits": 104,
+     "data_codewords": 13
+    },
+    "H": {
+     "mode": "numeric",
+     "version": 2,
+     "n_modules": 25,
+     "requested_ec": "H",
+     "effective_ec": "H",
+     "boosted": false,
+     "data_bits": 128,
+     "data_codewords": 16
+    }
+   }
+  },
+  {
+   "name": "alnum25",
+   "payload": "ABCDEFGHIJ0123456789KLMNO",
+   "chars": 25,
+   "by_ec": {
+    "L": {
+     "mode": "alphanumeric",
+     "version": 1,
+     "n_modules": 21,
+     "requested_ec": "L",
+     "effective_ec": "L",
+     "boosted": false,
+     "data_bits": 152,
+     "data_codewords": 19
+    },
+    "M": {
+     "mode": "alphanumeric",
+     "version": 2,
+     "n_modules": 25,
+     "requested_ec": "M",
+     "effective_ec": "Q",
+     "boosted": true,
+     "data_bits": 176,
+     "data_codewords": 22
+    },
+    "Q": {
+     "mode": "alphanumeric",
+     "version": 2,
+     "n_modules": 25,
+     "requested_ec": "Q",
+     "effective_ec": "Q",
+     "boosted": false,
+     "data_bits": 176,
+     "data_codewords": 22
+    },
+    "H": {
+     "mode": "alphanumeric",
+     "version": 3,
+     "n_modules": 29,
+     "requested_ec": "H",
+     "effective_ec": "H",
+     "boosted": false,
+     "data_bits": 208,
+     "data_codewords": 26
+    }
+   }
+  },
+  {
+   "name": "byte25",
+   "payload": "abcdefghij0123456789klmno",
+   "chars": 25,
+   "by_ec": {
+    "L": {
+     "mode": "byte",
+     "version": 2,
+     "n_modules": 25,
+     "requested_ec": "L",
+     "effective_ec": "M",
+     "boosted": true,
+     "data_bits": 224,
+     "data_codewords": 28
+    },
+    "M": {
+     "mode": "byte",
+     "version": 2,
+     "n_modules": 25,
+     "requested_ec": "M",
+     "effective_ec": "M",
+     "boosted": false,
+     "data_bits": 224,
+     "data_codewords": 28
+    },
+    "Q": {
+     "mode": "byte",
+     "version": 3,
+     "n_modules": 29,
+     "requested_ec": "Q",
+     "effective_ec": "Q",
+     "boosted": false,
+     "data_bits": 272,
+     "data_codewords": 34
+    },
+    "H": {
+     "mode": "byte",
+     "version": 4,
+     "n_modules": 33,
+     "requested_ec": "H",
+     "effective_ec": "H",
+     "boosted": false,
+     "data_bits": 288,
+     "data_codewords": 36
+    }
+   }
+  }
+ ],
+ "representative": [
+  {
+   "name": "numeric_natural",
+   "payload": "314159265358979323846264338327950288",
+   "chars": 36,
+   "by_ec": {
+    "L": {
+     "mode": "numeric",
+     "version": 1,
+     "n_modules": 21,
+     "requested_ec": "L",
+     "effective_ec": "L",
+     "boosted": false,
+     "data_bits": 152,
+     "data_codewords": 19
+    },
+    "M": {
+     "mode": "numeric",
+     "version": 2,
+     "n_modules": 25,
+     "requested_ec": "M",
+     "effective_ec": "Q",
+     "boosted": true,
+     "data_bits": 176,
+     "data_codewords": 22
+    },
+    "Q": {
+     "mode": "numeric",
+     "version": 2,
+     "n_modules": 25,
+     "requested_ec": "Q",
+     "effective_ec": "Q",
+     "boosted": false,
+     "data_bits": 176,
+     "data_codewords": 22
+    },
+    "H": {
+     "mode": "numeric",
+     "version": 3,
+     "n_modules": 29,
+     "requested_ec": "H",
+     "effective_ec": "H",
+     "boosted": false,
+     "data_bits": 208,
+     "data_codewords": 26
+    }
+   }
+  },
+  {
+   "name": "alphanumeric_natural",
+   "payload": "HTTPS://OPENQR.UK/PROMO/SUMMER2026SALE",
+   "chars": 38,
+   "by_ec": {
+    "L": {
+     "mode": "alphanumeric",
+     "version": 2,
+     "n_modules": 25,
+     "requested_ec": "L",
+     "effective_ec": "M",
+     "boosted": true,
+     "data_bits": 224,
+     "data_codewords": 28
+    },
+    "M": {
+     "mode": "alphanumeric",
+     "version": 2,
+     "n_modules": 25,
+     "requested_ec": "M",
+     "effective_ec": "M",
+     "boosted": false,
+     "data_bits": 224,
+     "data_codewords": 28
+    },
+    "Q": {
+     "mode": "alphanumeric",
+     "version": 3,
+     "n_modules": 29,
+     "requested_ec": "Q",
+     "effective_ec": "Q",
+     "boosted": false,
+     "data_bits": 272,
+     "data_codewords": 34
+    },
+    "H": {
+     "mode": "alphanumeric",
+     "version": 4,
+     "n_modules": 33,
+     "requested_ec": "H",
+     "effective_ec": "H",
+     "boosted": false,
+     "data_bits": 288,
+     "data_codewords": 36
+    }
+   }
+  },
+  {
+   "name": "byte_natural",
+   "payload": "https://openqr.uk/promo/summer2026sale",
+   "chars": 38,
+   "by_ec": {
+    "L": {
+     "mode": "byte",
+     "version": 3,
+     "n_modules": 29,
+     "requested_ec": "L",
+     "effective_ec": "M",
+     "boosted": true,
+     "data_bits": 352,
+     "data_codewords": 44
+    },
+    "M": {
+     "mode": "byte",
+     "version": 3,
+     "n_modules": 29,
+     "requested_ec": "M",
+     "effective_ec": "M",
+     "boosted": false,
+     "data_bits": 352,
+     "data_codewords": 44
+    },
+    "Q": {
+     "mode": "byte",
+     "version": 4,
+     "n_modules": 33,
+     "requested_ec": "Q",
+     "effective_ec": "Q",
+     "boosted": false,
+     "data_bits": 384,
+     "data_codewords": 48
+    },
+    "H": {
+     "mode": "byte",
+     "version": 5,
+     "n_modules": 37,
+     "requested_ec": "H",
+     "effective_ec": "H",
+     "boosted": false,
+     "data_bits": 368,
+     "data_codewords": 46
+    }
+   }
+  },
+  {
+   "name": "med_url_anchor",
+   "payload": "https://openqr.uk/r/aB3xK9",
+   "chars": 26,
+   "by_ec": {
+    "L": {
+     "mode": "byte",
+     "version": 2,
+     "n_modules": 25,
+     "requested_ec": "L",
+     "effective_ec": "M",
+     "boosted": true,
+     "data_bits": 224,
+     "data_codewords": 28
+    },
+    "M": {
+     "mode": "byte",
+     "version": 2,
+     "n_modules": 25,
+     "requested_ec": "M",
+     "effective_ec": "M",
+     "boosted": false,
+     "data_bits": 224,
+     "data_codewords": 28
+    },
+    "Q": {
+     "mode": "byte",
+     "version": 3,
+     "n_modules": 29,
+     "requested_ec": "Q",
+     "effective_ec": "Q",
+     "boosted": false,
+     "data_bits": 272,
+     "data_codewords": 34
+    },
+    "H": {
+     "mode": "byte",
+     "version": 4,
+     "n_modules": 33,
+     "requested_ec": "H",
+     "effective_ec": "H",
+     "boosted": false,
+     "data_bits": 288,
+     "data_codewords": 36
+    }
+   }
+  }
+ ],
+ "decode_sweep_ecH": {
+  "ppms": [
+   2,
+   3,
+   4,
+   6
+  ],
+  "captures_per_cell": 12,
+  "decoders": [
+   "zbar",
+   "opencv",
+   "wechat",
+   "zxing"
+  ],
+  "results": {
+   "num25": {
+    "version": 2,
+    "n_modules": 25,
+    "mode": "numeric",
+    "by_ppm": {
+     "2": {
+      "decode_rate": 0.75,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 0.833,
+       "opencv": 0.25,
+       "wechat": 1.0,
+       "zxing": 0.917
+      }
+     },
+     "3": {
+      "decode_rate": 1.0,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 1.0,
+       "opencv": 1.0,
+       "wechat": 1.0,
+       "zxing": 1.0
+      }
+     },
+     "4": {
+      "decode_rate": 1.0,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 1.0,
+       "opencv": 1.0,
+       "wechat": 1.0,
+       "zxing": 1.0
+      }
+     },
+     "6": {
+      "decode_rate": 1.0,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 1.0,
+       "opencv": 1.0,
+       "wechat": 1.0,
+       "zxing": 1.0
+      }
+     }
+    }
+   },
+   "alnum25": {
+    "version": 3,
+    "n_modules": 29,
+    "mode": "alphanumeric",
+    "by_ppm": {
+     "2": {
+      "decode_rate": 0.729,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 0.75,
+       "opencv": 0.167,
+       "wechat": 1.0,
+       "zxing": 1.0
+      }
+     },
+     "3": {
+      "decode_rate": 1.0,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 1.0,
+       "opencv": 1.0,
+       "wechat": 1.0,
+       "zxing": 1.0
+      }
+     },
+     "4": {
+      "decode_rate": 1.0,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 1.0,
+       "opencv": 1.0,
+       "wechat": 1.0,
+       "zxing": 1.0
+      }
+     },
+     "6": {
+      "decode_rate": 1.0,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 1.0,
+       "opencv": 1.0,
+       "wechat": 1.0,
+       "zxing": 1.0
+      }
+     }
+    }
+   },
+   "byte25": {
+    "version": 4,
+    "n_modules": 33,
+    "mode": "byte",
+    "by_ppm": {
+     "2": {
+      "decode_rate": 0.646,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 0.417,
+       "opencv": 0.167,
+       "wechat": 1.0,
+       "zxing": 1.0
+      }
+     },
+     "3": {
+      "decode_rate": 0.979,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 1.0,
+       "opencv": 0.917,
+       "wechat": 1.0,
+       "zxing": 1.0
+      }
+     },
+     "4": {
+      "decode_rate": 0.979,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 1.0,
+       "opencv": 0.917,
+       "wechat": 1.0,
+       "zxing": 1.0
+      }
+     },
+     "6": {
+      "decode_rate": 1.0,
+      "n_attempts": 48,
+      "per_decoder": {
+       "zbar": 1.0,
+       "opencv": 1.0,
+       "wechat": 1.0,
+       "zxing": 1.0
+      }
+     }
+    }
+   }
+  }
+ }
+}

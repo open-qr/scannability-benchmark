@@ -1,0 +1,81 @@
+{
+ "occ_p95_worstcase": {
+  "L": 8.2,
+  "M": 8.0,
+  "Q": 6.4,
+  "H": 8.9
+ },
+ "occ_p95_by_decoder": {
+  "L": {
+   "zbar": 8.2,
+   "opencv": 8.2,
+   "wechat": 8.2,
+   "zxing": 8.2,
+   "worst_excl_opencv": 8.2
+  },
+  "M": {
+   "zbar": 8.2,
+   "opencv": 8.0,
+   "wechat": 8.2,
+   "zxing": 8.2,
+   "worst_excl_opencv": 8.2
+  },
+  "Q": {
+   "zbar": 9.9,
+   "opencv": 6.4,
+   "wechat": 12.2,
+   "zxing": 9.1,
+   "worst_excl_opencv": 9.1
+  },
+  "H": {
+   "zbar": 16.2,
+   "opencv": 8.9,
+   "wechat": 16.2,
+   "zxing": 16.2,
+   "worst_excl_opencv": 16.2
+  }
+ },
+ "min_ppm_95_med": {
+  "L": 3.33,
+  "M": 3.17,
+  "Q": 3.25,
+  "H": 3.25
+ },
+ "min_ppm_95_short": {
+  "L": 3.33,
+  "M": 2.98,
+  "Q": 3.0,
+  "H": 3.0
+ },
+ "contrast_floor_worstcase_p95": 2.05,
+ "inversion": {
+  "opencv": {
+   "normal": 0.57,
+   "inverted": 0.0
+  },
+  "wechat": {
+   "normal": 0.717,
+   "inverted": 0.618
+  },
+  "zbar": {
+   "normal": 0.625,
+   "inverted": 0.0
+  },
+  "zxing": {
+   "normal": 0.683,
+   "inverted": 0.687
+  }
+ },
+ "decoder_overall": {
+  "opencv": 0.282,
+  "wechat": 0.535,
+  "zbar": 0.321,
+  "zxing": 0.52
+ },
+ "decoder_lowres_ppm2": {
+  "opencv": 0.019,
+  "wechat": 0.245,
+  "zbar": 0.078,
+  "zxing": 0.207
+ }
+}

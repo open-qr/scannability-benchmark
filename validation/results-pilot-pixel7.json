@@ -1,0 +1,142 @@
+{
+ "a00": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "a09": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "a18": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "bno": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "bin": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "c45": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "c30": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "c20": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "c15": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "dro": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "ddo": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "dga": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "elr": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "ehr": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "f03": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "f04": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "f06": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "f10": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "a24": {
+  "decoded": false,
+  "marginal": false,
+  "failed": true
+ },
+ "a30": {
+  "decoded": false,
+  "marginal": false,
+  "failed": true
+ },
+ "a36": {
+  "decoded": false,
+  "marginal": false,
+  "failed": true
+ },
+ "f02": {
+  "decoded": false,
+  "marginal": true,
+  "failed": false
+ },
+ "p66": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "p50": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "p40": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "p30": {
+  "decoded": true,
+  "marginal": false,
+  "failed": false
+ },
+ "p25": {
+  "decoded": false,
+  "marginal": true,
+  "failed": false
+ },
+ "p20": {
+  "decoded": false,
+  "marginal": true,
+  "failed": false
+ }
+}
