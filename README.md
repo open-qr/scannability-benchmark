@@ -1,7 +1,7 @@
 # The Scannability Frontier
 
 *An empirical, decoder-stratified benchmark of stylised QR codes.*
-An [OpenQR Research](https://openqr.uk) study. Author: Sam Moreton.
+An [OpenQR Research](https://openqr.uk/research) study. Author: Sam Moreton. Readable paper: [openqr.uk/research/scannability-benchmark](https://openqr.uk/research/scannability-benchmark). Practitioner summary: [How much of a QR code can a logo cover?](https://openqr.uk/research/how-much-of-a-qr-code-can-a-logo-cover).
 
 An open benchmark of how far you can push QR-code **styling** (centre logos, brand colour/contrast, inversion, module shape, small print, resolution) before a code stops scanning, measured across four pinned decoders: ZBar, OpenCV `QRCodeDetector`, OpenCV-WeChat (CNN + super-resolution; decode core ZXing-derived) and ZXing (`zxing-cpp`). Conditional on: three payload strings, versions 2–4, one automatic mask each, the synthetic capture proxy. Preprint v1.1 (peer-review revision).
 
