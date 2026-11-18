@@ -32,4 +32,4 @@ Note: `analyze.py`, `headline.py` and `ci.py` regenerate committed data files de
 
 ## Licence & citation
 Code Apache-2.0 (`LICENSE`); data, figures and paper CC-BY-4.0 (`LICENSE-CC-BY-4.0.txt`).
-Cite via the Zenodo DOI **10.5281/zenodo.24327737** (v1.1, published 2026-11-18: https://zenodo.org/records/24327737). Correspondence: research@openqr.uk
+Cite via the Zenodo DOI **10.5281/zenodo.24352636** (v1.1, published 2026-11-18, PDF readable on the record: https://zenodo.org/records/24352636; all versions resolve via 10.5281/zenodo.24327736). Correspondence: research@openqr.uk
