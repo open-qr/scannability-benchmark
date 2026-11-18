@@ -18,5 +18,8 @@ keywords:
   - decoders
   - computer vision
   - benchmark
-# A DOI is assigned on Zenodo deposit (release). Add it here under `identifiers`
-# (type: doi) and set `date-released` at that point.
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24327737
+    description: Zenodo deposit of the v1.1 release (DOI reserved; resolves on publication).
+# Set `date-released` when the Zenodo record is published.
